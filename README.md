@@ -27,3 +27,10 @@
 
 
 ---
+
+
+### Challenge 4: Middle Value
+[**Go to Challenge README**](whiteboard-challenges/middle-value/README.md)
+
+
+---
