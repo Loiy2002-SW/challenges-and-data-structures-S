@@ -23,14 +23,20 @@
 
 
 ### Challenge 3: Remove Middle Value from Array
-[**Go to Challenge README**](whiteboard-challenges/remove-middle-value-from-array/README.md)
+[**Go to Challenge README**](challenges-and-data-structures/whiteboard-challenges/remove-middle-value-from-array/README.md)
 
 
 ---
 
 
 ### Challenge 4: Middle Value
-[**Go to Challenge README**](whiteboard-challenges/middle-value/README.md)
+[**Go to Challenge README**](challenges-and-data-structures/whiteboard-challenges/middle-value/README.md)
+
+
+---
+
+### Challenge 5: Find duplicates
+[**Go to Challenge README**](challenges-and-data-structures/Challenges/Find-Duplicates/README.md)
 
 
 ---
