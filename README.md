@@ -14,3 +14,9 @@
 
 
 ---
+
+### Challenge 2: Maximum Value
+[**Go to Challenge README**](challenges-and-data-structures/whiteboard-challenges/maximum-value/README.md)
+
+
+---
