@@ -40,3 +40,9 @@
 
 
 ---
+
+### Challenge 6 A: Common elements
+[**Go to Challenge README**](challenges/Common-Elements/README.md)
+
+
+---
