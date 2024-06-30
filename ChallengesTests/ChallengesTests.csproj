@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\challenges-and-data-structures\challenges-and-data-structures.csproj" />
+  </ItemGroup>
+
 </Project>
