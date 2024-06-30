@@ -21,7 +21,7 @@ namespace challenges_and_data_structures
 
 
             Console.WriteLine($"Input: [{string.Join(",", array1Test2)}], [{string.Join(",", array2Test2)}]");
-            Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test1, array2Test1))}]");
+            Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test2, array2Test2))}]");
 
             Console.WriteLine("======================================================");
 
@@ -29,7 +29,7 @@ namespace challenges_and_data_structures
             int[] array2Test3 = { 10, 15, 25 };
 
             Console.WriteLine($"Input: [{string.Join(",", array1Test3)}], [{string.Join(",", array2Test3)}]");
-            Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test1, array2Test1))}]");
+            Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test3, array2Test3))}]");
 
             Console.WriteLine("======================================================");
 
@@ -42,24 +42,15 @@ namespace challenges_and_data_structures
             Dictionary<int, int> directory = new Dictionary<int, int>();
 
             for (int i = 0; i < array1.Length; i++)
-            {
                 if (!directory.ContainsKey(array1[i]))
-                {
                     directory.Add(array1[i], 1);
-                }
 
-            }
 
             for (int i = 0; i < array2.Length; i++)
-            {
                 if (directory.ContainsKey(array2[i]))
-                {
                     directory[array2[i]] = 2;
-                }
-
-            }
-
            
+
             List<int> commons = new List<int>();
 
             foreach (var kvp in directory)
