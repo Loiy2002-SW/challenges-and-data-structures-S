@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesTests", "ChallengesTests\ChallengesTests.csproj", "{73A391E9-87B1-4098-B8F8-5FADF1CFA847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
