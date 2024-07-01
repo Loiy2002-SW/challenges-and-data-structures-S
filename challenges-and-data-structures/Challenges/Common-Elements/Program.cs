@@ -10,27 +10,30 @@ namespace challenges_and_data_structures
             int[] array1Test1 = { 1, 2, 3, 0 };
             int[] array2Test1 = { 2, 3, 4, 9 };
 
-
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Input: [{string.Join(",", array1Test1)}], [{string.Join(",", array2Test1)}]");
             Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test1, array2Test1))}]");
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("======================================================");
 
             int[] array1Test2 = { 79, 8, 15 };
             int[] array2Test2 = { 23, 79, 8 };
 
-
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Input: [{string.Join(",", array1Test2)}], [{string.Join(",", array2Test2)}]");
             Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test2, array2Test2))}]");
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("======================================================");
 
             int[] array1Test3 = { 5, 10, 15, 20 };
             int[] array2Test3 = { 10, 15, 25 };
-
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Input: [{string.Join(",", array1Test3)}], [{string.Join(",", array2Test3)}]");
             Console.WriteLine($"Output: [{string.Join(",", CommonElements(array1Test3, array2Test3))}]");
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("======================================================");
 
             Console.ReadKey();
