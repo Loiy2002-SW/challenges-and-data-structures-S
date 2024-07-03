@@ -2,7 +2,7 @@
 
 namespace challenges_and_data_structures
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
