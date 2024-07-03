@@ -1,9 +1,9 @@
-# Challenge 5: Find duplicates
+# Challenge 6 B: Reverse Words
 
-### The Findduplicates method takes an int array as input and returns a new array with duplicates elements.
+### The ReverseWords method takes a string as input and returns the same string with reverse words orders.
 
 ## Whiteboard image:
-![Find duplicates](duplicate-values.png)
+![Reverse Words](reverse-words.png)
 
 ## Code run:
-![Code run](output.PNG)
+![Code run](output6.PNG)
