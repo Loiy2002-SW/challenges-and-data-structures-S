@@ -1,7 +1,7 @@
 ﻿
 
-namespace challenges_and_data_structures
-{
+//namespace challenges_and_data_structures
+//{
     //internal class Program
     //{
     //    static void Main(string[] args)
@@ -49,4 +49,4 @@ namespace challenges_and_data_structures
 
     //}
     
-}
+//}
