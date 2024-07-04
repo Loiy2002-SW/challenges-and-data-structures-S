@@ -7,18 +7,24 @@ namespace challenges_and_data_structures
         static void Main(string[] args)
         {
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow; 
             string test1 = "csharp is programming language";
             Console.WriteLine($"Input: {test1}");
             Console.WriteLine($"Output: {ReverseWords(test1)}");
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("======================================================");
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             string test2 = "Reverse the words in this sentence";
             Console.WriteLine($"Input: {test2}");
             Console.WriteLine($"Output: {ReverseWords(test2)}");
 
+
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("======================================================");
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             string test3 = "challenges and data structures";
             Console.WriteLine($"Input: {test3}");
             Console.WriteLine($"Output: {ReverseWords(test3)}");
