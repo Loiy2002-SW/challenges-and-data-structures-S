@@ -6,6 +6,15 @@ namespace ChallengesTests
     {
 
         [Fact]
+        public void TestSingleWord()
+        {
+            string input = "Hello";
+            string expectedOutput = "Hello";
+            string actualOutput = Program.ReverseWords(input);
+            Assert.Equal(expectedOutput, actualOutput);
+        }
+
+        [Fact]
         public void ReverseWords_WithMultipleWords_ReturnsWordsInReverseOrder()
         {
             // Arrange
