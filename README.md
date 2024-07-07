@@ -46,3 +46,9 @@
 
 
 ---
+
+### Challenge 6 B: Reverse Words
+[**Go to Challenge README**](challenges-and-data-structures/Challenges/Reverse-Words/README.md)
+
+
+---
