@@ -1,9 +1,20 @@
-# Challenge 6 B: Reverse Words
+# Challenge 7: Linked List Implementation
 
-### The ReverseWords method takes a string as input and returns the same string with reverse words orders.
+### This class constains an implementation of the linked list with some manpulation methods.
 
-## Whiteboard image:
-![Reverse Words](reverse-words.png)
+## Whiteboard images:
+
+### Add:
+![Add](LinkedList_Add.png)
+
+### Remove:
+![Remove](LinkedList_Remove.png)
+
+### Includes:
+![Includes](LinkedList_Include.png)
+
+### PrintList:
+![PrintList](LinkedList_PrintList.png)
 
 ## Code run:
-![Code run](output6.PNG)
+![Code run](output7.PNG)

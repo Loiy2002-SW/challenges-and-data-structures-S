@@ -36,7 +36,8 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             {
                 Node previous = current;
                 current = current.Next;
-                if (current.Data == value) previous.Next = current.Next ;
+                if (current.Data == value) 
+                    previous.Next = current.Next ;
             }
          
         }
@@ -71,9 +72,8 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             {
                 Node current = Head;
                 while (current.Next != null)
-                {
                     current = current.Next;
-                }
+
                 current.Next = newNode;
             }
         }
