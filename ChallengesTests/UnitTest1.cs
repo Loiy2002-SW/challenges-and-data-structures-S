@@ -1,46 +1,88 @@
 
 
+using challenges_and_data_structures.Data_Structures.LinkedList;
+
 namespace ChallengesTests
 {
     public class UnitTest1
     {
 
-        [Fact]
-        public void TestSingleWord()
-        {
-            string input = "Hello";
-            string expectedOutput = "Hello";
-            string actualOutput = Program.ReverseWords(input);
-            Assert.Equal(expectedOutput, actualOutput);
-        }
 
+        //Linked list tests:
         [Fact]
-        public void ReverseWords_WithMultipleWords_ReturnsWordsInReverseOrder()
+        public void Remove_NodeFromEnd_RemovesCorrectNode()
         {
             // Arrange
-            string input = "Hello World";
-            string expected = "World Hello";
+            LinkedList list = new LinkedList();
+            list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
 
             // Act
-            string actual = Program.ReverseWords(input);
+            list.Remove(4);
 
             // Assert
-            Assert.Equal(expected, actual);
+            var current = list.Head;
+            while (current.Next != null)
+            {
+                current = current.Next;
+            }
+            Assert.Equal(3, current.Data);
         }
 
         [Fact]
-        public void ReverseWords_WithNullInput_ReturnsEmptyString()
+        public void PrintList_PrintsCorrectly()
         {
             // Arrange
-            string input = null;
-            string expected = "";
+            LinkedList list = new LinkedList();
+            list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
 
             // Act
-            string actual = Program.ReverseWords(input);
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                list.PrintList();
+                var result = sw.ToString().Trim();
 
-            // Assert
-            Assert.Equal(expected, actual);
+                // Assert
+                Assert.Equal("Head -> 1 -> 2 -> 3 -> 4 -> Null", result);
+            }
         }
+
+        //[Fact]
+        //public void TestSingleWord()
+        //{
+        //    string input = "Hello";
+        //    string expectedOutput = "Hello";
+        //    string actualOutput = Program.ReverseWords(input);
+        //    Assert.Equal(expectedOutput, actualOutput);
+        //}
+
+        //[Fact]
+        //public void ReverseWords_WithMultipleWords_ReturnsWordsInReverseOrder()
+        //{
+        //    // Arrange
+        //    string input = "Hello World";
+        //    string expected = "World Hello";
+
+        //    // Act
+        //    string actual = Program.ReverseWords(input);
+
+        //    // Assert
+        //    Assert.Equal(expected, actual);
+        //}
+
+        //[Fact]
+        //public void ReverseWords_WithNullInput_ReturnsEmptyString()
+        //{
+        //    // Arrange
+        //    string input = null;
+        //    string expected = "";
+
+        //    // Act
+        //    string actual = Program.ReverseWords(input);
+
+        //    // Assert
+        //    Assert.Equal(expected, actual);
+        //}
 
         // These for Challenge 6 A
         //[Fact]
