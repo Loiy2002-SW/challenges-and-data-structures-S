@@ -13,7 +13,7 @@ namespace ChallengesTests
         public void Remove_NodeFromEnd_RemovesCorrectNode()
         {
             // Arrange
-            var list = new LinkedList();
+            LinkedList list = new LinkedList();
             list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
 
             // Act
@@ -25,14 +25,14 @@ namespace ChallengesTests
             {
                 current = current.Next;
             }
-            Assert.Equal(3, current.Value);
+            Assert.Equal(3, current.Data);
         }
 
         [Fact]
         public void PrintList_PrintsCorrectly()
         {
             // Arrange
-            var list = new LinkedList();
+            LinkedList list = new LinkedList();
             list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
 
             // Act
