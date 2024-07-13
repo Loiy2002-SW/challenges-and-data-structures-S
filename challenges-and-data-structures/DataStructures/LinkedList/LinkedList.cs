@@ -78,5 +78,24 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             }
         }
 
+        public void RemoveDuplicates() { 
+        
+            if (Head == null) return;
+
+            HashSet<int> uniqeKeys = new HashSet<int>();
+            Node? travarser = Head;
+
+            while (travarser != null) {
+
+                if (uniqeKeys.Contains(travarser.Data))
+                    Remove(travarser.Data);
+
+                else 
+                    uniqeKeys.Add(travarser.Data);
+                
+                travarser = travarser.Next;
+            }
+        }
+
     }
 }
