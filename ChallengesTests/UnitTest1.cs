@@ -7,45 +7,114 @@ namespace ChallengesTests
     public class UnitTest1
     {
 
-
-        //Linked list tests:
         [Fact]
-        public void Remove_NodeFromEnd_RemovesCorrectNode()
+        public void RemoveDuplicates_NoDuplicates_RemainsUnchanged()
         {
             // Arrange
             LinkedList list = new LinkedList();
-            list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
-
-            // Act
-            list.Remove(4);
-
-            // Assert
-            var current = list.Head;
-            while (current.Next != null)
-            {
-                current = current.Next;
-            }
-            Assert.Equal(3, current.Data);
-        }
-
-        [Fact]
-        public void PrintList_PrintsCorrectly()
-        {
-            // Arrange
-            LinkedList list = new LinkedList();
-            list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
 
             // Act
             using (var sw = new StringWriter())
             {
                 Console.SetOut(sw);
+                list.RemoveDuplicates();
                 list.PrintList();
-                var result = sw.ToString().Trim();
 
                 // Assert
-                Assert.Equal("Head -> 1 -> 2 -> 3 -> 4 -> Null", result);
+                var result = sw.ToString().Trim();
+                Assert.Equal("Head -> 1 -> 2 -> 3 -> Null", result);
             }
         }
+
+        [Fact]
+        public void RemoveDuplicates_WithDuplicates_RemovesDuplicates()
+        {
+            // Arrange
+            LinkedList list = new LinkedList();
+            list.Add(5);
+            list.Add(20);
+            list.Add(20);
+            list.Add(10);
+            list.Add(5);
+            list.Add(10);
+
+            // Act
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                list.RemoveDuplicates();
+                list.PrintList();
+
+                // Assert
+                var result = sw.ToString().Trim();
+                Assert.Equal("Head -> 5 -> 20 -> 10 -> Null", result);
+            }
+        }
+
+        [Fact]
+        public void RemoveDuplicates_AllNodesAreDuplicates_ReducesToOneNode()
+        {
+            // Arrange
+            LinkedList list = new LinkedList();
+            list.Add(7);
+            list.Add(7);
+            list.Add(7);
+            list.Add(7);
+
+            // Act
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                list.RemoveDuplicates();
+                list.PrintList();
+
+                // Assert
+                var result = sw.ToString().Trim();
+                Assert.Equal("Head -> 7 -> Null", result);
+            }
+        }
+
+        ////Linked list tests:
+        //[Fact]
+        //public void Remove_NodeFromEnd_RemovesCorrectNode()
+        //{
+        //    // Arrange
+        //    LinkedList list = new LinkedList();
+        //    list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
+
+        //    // Act
+        //    list.Remove(4);
+
+        //    // Assert
+        //    var current = list.Head;
+        //    while (current.Next != null)
+        //    {
+        //        current = current.Next;
+        //    }
+        //    Assert.Equal(3, current.Data);
+        //}
+
+        //[Fact]
+        //public void PrintList_PrintsCorrectly()
+        //{
+        //    // Arrange
+        //    LinkedList list = new LinkedList();
+        //    list.Head = new Node(1) { Next = new Node(2) { Next = new Node(3) { Next = new Node(4) } } };
+
+        //    // Act
+        //    using (var sw = new StringWriter())
+        //    {
+        //        Console.SetOut(sw);
+        //        list.PrintList();
+        //        var result = sw.ToString().Trim();
+
+        //        // Assert
+        //        Assert.Equal("Head -> 1 -> 2 -> 3 -> 4 -> Null", result);
+        //    }
+        //}
 
         //[Fact]
         //public void TestSingleWord()
