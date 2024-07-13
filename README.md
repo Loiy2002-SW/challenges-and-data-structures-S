@@ -60,3 +60,9 @@
 
 
 ---
+
+### Challenge 8: Remove Duplicates
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/LinkedList/RemoveDuplicates/README.md)
+
+
+---
