@@ -5,5 +5,7 @@
 ## Whiteboard image:
 ![Find duplicates](duplicate-values.png)
 
+---
+
 ## Code run:
 ![Code run](output.PNG)

@@ -5,5 +5,7 @@
 ## Whiteboard image:
 ![Common elements](common-elements.png)
 
+---
+
 ## Code run:
 ![Code run](output3.PNG)
