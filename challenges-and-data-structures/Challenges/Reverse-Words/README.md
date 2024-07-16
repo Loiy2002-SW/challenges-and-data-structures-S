@@ -5,5 +5,7 @@
 ## Whiteboard image:
 ![Reverse Words](reverse-words.png)
 
+---
+
 ## Code run:
 ![Code run](output6.PNG)
