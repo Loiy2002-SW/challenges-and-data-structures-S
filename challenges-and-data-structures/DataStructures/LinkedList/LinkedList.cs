@@ -1,16 +1,18 @@
-﻿
-
-namespace challenges_and_data_structures.Data_Structures.LinkedList
+﻿namespace challenges_and_data_structures.Data_Structures.LinkedList
 {
+    // Represents a singly linked list data structure.
     public class LinkedList
     {
-        public Node? Head {  get; private set; }
+        // Reference to the first node in the linked list.
+        public Node? Head { get; private set; }
 
+        // Initializes an empty linked list.
         public LinkedList()
         {
             Head = null;
         }
 
+        // Checks if a node containing specified data exists in the linked list.
         public bool Includes(int data)
         {
             Node current = Head;
@@ -22,8 +24,8 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             }
             return false;
         }
-    
 
+        // Removes the first occurrence of a node with specified data from the linked list.
         public void Remove(int value)
         {
             if (Head == null) return;
@@ -36,13 +38,12 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             {
                 Node previous = current;
                 current = current.Next;
-                if (current.Data == value) 
-                    previous.Next = current.Next ;
+                if (current.Data == value)
+                    previous.Next = current.Next;
             }
-         
         }
 
-
+        // Prints the elements of the linked list in order.
         public void PrintList()
         {
             if (Head == null)
@@ -61,6 +62,7 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             Console.WriteLine("Null");
         }
 
+        // Adds a new node with the specified data to the end of the linked list.
         public void Add(int data)
         {
             Node newNode = new Node(data);
@@ -78,22 +80,22 @@ namespace challenges_and_data_structures.Data_Structures.LinkedList
             }
         }
 
-        public void RemoveDuplicates() { 
-        
+        // Removes duplicates from the linked list.
+        public void RemoveDuplicates()
+        {
             if (Head == null) return;
 
-            HashSet<int> uniqeKeys = new HashSet<int>();
-            Node? travarser = Head;
+            HashSet<int> uniqueKeys = new HashSet<int>();
+            Node? traverser = Head;
 
-            while (travarser != null) {
+            while (traverser != null)
+            {
+                if (uniqueKeys.Contains(traverser.Data))
+                    Remove(traverser.Data);
+                else
+                    uniqueKeys.Add(traverser.Data);
 
-                if (uniqeKeys.Contains(travarser.Data))
-                    Remove(travarser.Data);
-
-                else 
-                    uniqeKeys.Add(travarser.Data);
-                
-                travarser = travarser.Next;
+                traverser = traverser.Next;
             }
         }
 

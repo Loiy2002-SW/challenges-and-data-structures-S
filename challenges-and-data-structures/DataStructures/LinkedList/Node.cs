@@ -2,16 +2,23 @@
 
 namespace challenges_and_data_structures.Data_Structures.LinkedList
 {
-    public class Node
-    {
-        public int Data {  get; set; }
-        public Node? Next { get; set; }
-
-
-        public Node(int data = 0)
+   
+       
+        /// Represents a node in a singly linked list.
+        public class Node
         {
-            this.Data = data;
-            this.Next = null;
+            /// Gets or sets the data stored in the node.
+            public int Data { get; set; }
+
+            /// Gets or sets the reference to the next node in the linked list.
+            public Node? Next { get; set; }
+
+            /// Initializes a new instance of the Node class with optional data.
+            public Node(int data = 0)
+            {
+                this.Data = data;
+                this.Next = null;
+            }
         }
-    }
+
 }
