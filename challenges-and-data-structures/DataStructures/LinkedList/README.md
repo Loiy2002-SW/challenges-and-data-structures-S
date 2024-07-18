@@ -7,14 +7,24 @@
 ### Add:
 ![Add](LinkedList_Add.png)
 
+---
+
 ### Remove:
 ![Remove](LinkedList_Remove.png)
+
+---
 
 ### Includes:
 ![Includes](LinkedList_Include.png)
 
+---
+
 ### PrintList:
 ![PrintList](LinkedList_PrintList.png)
 
+---
+
 ## Code run:
 ![Code run](output7.PNG)
+
+---
