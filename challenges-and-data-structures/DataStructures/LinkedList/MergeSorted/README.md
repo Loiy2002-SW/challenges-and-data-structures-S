@@ -5,9 +5,9 @@
 ## Whiteboard images:
 
 ### Merge Sorted Lists:
-![Merge Sorted Lists](LinkedList_RemoveDuplicates.png)
+![Merge Sorted Lists](MergeSortedLinkedLists.png)
 
 ---
 
 ## Code run:
-![Code run](codeRun.PNG)
+![Code run](output9.PNG)
