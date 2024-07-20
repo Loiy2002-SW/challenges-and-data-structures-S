@@ -99,5 +99,33 @@
             }
         }
 
+        // Merge sorted lists
+        public static LinkedList MergeSortedLists(LinkedList list1, LinkedList list2)
+        {
+            Node dummy = new Node(0);
+            Node current = dummy;
+            Node l1 = list1.Head;
+            Node l2 = list2.Head;
+
+            while (l1 != null && l2 != null)
+            {
+                if (l1.Data < l2.Data)
+                {
+                    current.Next = l1;
+                    l1 = l1.Next;
+                }else
+                {
+                    current.Next = l2;
+                    l2 = l2.Next;
+                }
+                current = current.Next;
+            }
+            current.Next = l1 ?? l2;
+
+            LinkedList mergedList = new LinkedList();
+            mergedList.Head = dummy.Next;
+            return mergedList;
+        }
+
     }
 }
