@@ -5,7 +5,7 @@
 ## Whiteboard images:
 
 ### Merge Sorted Lists:
-![Merge Sorted Lists](MergeSortedLinkedLists.png)
+![Merge Sorted Lists](LinkedList_MergeSortedLinkedLists.png)
 
 ---
 
