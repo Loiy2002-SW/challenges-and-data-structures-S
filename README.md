@@ -66,3 +66,9 @@
 
 
 ---
+
+### Lab : Stack and Queue Implementaion
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/Stack_Queue/StackAndQueue/README.md)
+
+
+---
