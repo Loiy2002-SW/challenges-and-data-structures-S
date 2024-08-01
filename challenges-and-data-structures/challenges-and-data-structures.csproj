@@ -6,6 +6,7 @@
     <RootNamespace>challenges_and_data_structures</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>challenges_and_data_structures.DataStructures.Stack_Queue.ReverseStackUsingQueue.StackWithReverse</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
