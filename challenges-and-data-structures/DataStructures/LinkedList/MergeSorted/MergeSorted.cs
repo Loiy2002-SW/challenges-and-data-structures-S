@@ -29,7 +29,7 @@ namespace challenges_and_data_structures
             list2.PrintList();
 
             Console.WriteLine($"\nList after merging:");
-            LinkedList.MergeSortedLists(list1, list2 ).PrintList();
+            LinkedList.MergeSortedLists(list1, list2).PrintList();
 
 
 

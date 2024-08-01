@@ -8,7 +8,7 @@ namespace StackAndQueue
 {
   public class Stack
 {
-    private Node top;
+    public Node top;
     public Stack()
     {
         top = null;

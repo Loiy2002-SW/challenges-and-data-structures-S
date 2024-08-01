@@ -72,3 +72,10 @@
 
 
 ---
+
+
+### Lab : Stack & Queue: Reverse a Stack using Queue
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/Stack_Queue/ReverseStackUsingQueue/README.md)
+
+
+---
