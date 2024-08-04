@@ -79,3 +79,9 @@
 
 
 ---
+
+### challenge : Delete middle element of a stack
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/Stack_Queue/DeleteMiddleElemen/README.md)
+
+
+---

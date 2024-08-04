@@ -1,6 +1,7 @@
 ﻿
 
 using challenges_and_data_structures.Data_Structures.LinkedList;
+using challenges_and_data_structures.DataStructures.Stack_Queue.ReverseStackUsingQueue;
 
 namespace challenges_and_data_structures
 {
@@ -26,11 +27,17 @@ namespace challenges_and_data_structures
             list1.PrintList();
 
             Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
+            Console.WriteLine($"List2: ");
             list2.PrintList();
 
             Console.WriteLine($"\nList after merging:");
             LinkedList.MergeSortedLists(list1, list2).PrintList();
-
 
 
             Console.ReadKey();
