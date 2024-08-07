@@ -1,8 +1,7 @@
-# Delete Middle Element of a stack
-### Implement a method to delete the middle element of a stack. The stack class should be extended to include this functionality. The solution should handle various cases, including a stack with multiple elements, a single element, and an empty stack.
-
+# MinStack implementation
+### MinStack implementation in C# with O(1) time complexity for retrieving the minimum element. Supports push, pop, top, isEmpty, getMin, and printStack operations. Includes a main program demonstrating usage and expected outputs.
 ## Whiteboard image:
-![Reverse Stack](delete-middle-stack.png)
+![Reverse Stack](min-stack.png)
 
-## Code run:
-![Code run](code-run.png)
+## Output:
+![Code run](output.png)
