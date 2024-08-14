@@ -13,7 +13,6 @@ namespace challenges_and_data_structures.DataStructures.Trees.TreeImplementation
             InorderHelper(Root, result);
             return result;
         }
-
         private void InorderHelper(TNode node, List<int> result)
         {
             if (node == null) return;
@@ -22,13 +21,11 @@ namespace challenges_and_data_structures.DataStructures.Trees.TreeImplementation
             result.Add(node.Data);
             InorderHelper(node.Right, result);
         }
-
         // Mirror the Binary Tree
         public void MirrorTree()
         {
             MirrorHelper(Root);
         }
-
         private void MirrorHelper(TNode node)
         {
             if (node == null) return;
