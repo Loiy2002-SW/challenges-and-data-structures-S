@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{2DB4BCA6-8F83-4D3F-BACA-2449EE57C788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesTests", "ChallengesTests\ChallengesTests.csproj", "{73A391E9-87B1-4098-B8F8-5FADF1CFA847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengesTests", "ChallengesTests\ChallengesTests.csproj", "{73A391E9-87B1-4098-B8F8-5FADF1CFA847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorTreeL", "challenges-and-data-structures\DataStructures\Trees\TreeImplementaionS\MirrorTreeL\MirrorTreeL.csproj", "{0AB884F9-A01C-448C-B7E7-1AE10313C134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A391E9-87B1-4098-B8F8-5FADF1CFA847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB884F9-A01C-448C-B7E7-1AE10313C134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB884F9-A01C-448C-B7E7-1AE10313C134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB884F9-A01C-448C-B7E7-1AE10313C134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB884F9-A01C-448C-B7E7-1AE10313C134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

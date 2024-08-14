@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataStructures\Trees\" />
     <Folder Include="DataStructures\Stack &amp; Queue\" />
   </ItemGroup>
 
