@@ -98,8 +98,14 @@
 
 ---
 
-### Lab : Trees Mirror Implementation
+### Code challenge : Trees Mirror Implementation
 [**Go to Challenge README**](challenges-and-data-structures/DataStructures/Trees/TreeImplementationS/MirrorTree/README.md)
+
+
+---
+
+### Code challenge : Second Maximum Value Tree
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/Trees/TreeImplementationS/SecondMaxValue/README.md)
 
 
 ---
