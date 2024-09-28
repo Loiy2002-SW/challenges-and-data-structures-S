@@ -1,4 +1,4 @@
-# Binary Tree Right View Project
+# Binary Tree Right View 
 
 This project implements a Binary Tree in C# with the ability to print the right view of the tree. The right view consists of the set of nodes visible when the tree is viewed from the right side. The project also includes a method to traverse the tree level by level and xUnit tests to validate functionality.
 
