@@ -36,20 +36,14 @@ namespace RightViewPrint
 
                     // If this is the rightmost node of the current level
                     if (i == levelCount - 1)
-                    {
                         Console.Write(currentNode.Data + " ");
-                    }
 
                     // Enqueue left and right children
                     if (currentNode.Left != null)
-                    {
                         queue.Enqueue(currentNode.Left);
-                    }
 
                     if (currentNode.Right != null)
-                    {
                         queue.Enqueue(currentNode.Right);
-                    }
                 }
             }
             Console.WriteLine();
