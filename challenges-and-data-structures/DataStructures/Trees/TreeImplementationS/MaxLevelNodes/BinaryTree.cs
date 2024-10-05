@@ -18,9 +18,7 @@ namespace MaxLevelNodes
         public int FindMaxLevelNodes()
         {
             if (Root == null)
-            {
                 throw new InvalidOperationException("Tree is empty.");
-            }
 
             Queue<Node> queue = new Queue<Node>();
             queue.Enqueue(Root);
