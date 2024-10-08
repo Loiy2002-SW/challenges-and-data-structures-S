@@ -140,3 +140,10 @@
 
 
 ---
+
+
+### Code challenge : Minimum depth
+[**Go to Challenge README**](challenges-and-data-structures/DataStructures/Trees/TreeImplementationS/MinimumDepth/README.md)
+
+
+---
