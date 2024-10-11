@@ -13,9 +13,7 @@ namespace BTreeToBTS
         public void ConvertToBST()
         {
             if (Root == null)
-            {
                 throw new InvalidOperationException("The tree is empty.");
-            }
 
             // Step 1: Store the values in a list
             List<int> values = new List<int>();
